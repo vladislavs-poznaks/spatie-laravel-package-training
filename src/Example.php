@@ -4,5 +4,4 @@ namespace VladislavsPoznaks\Example;
 
 class Example
 {
-
 }
