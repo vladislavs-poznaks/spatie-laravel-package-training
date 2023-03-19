@@ -1,29 +1,29 @@
-# :package_description
+# This is my package spatie-laravel-package-training
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/:vendor_slug/:package_slug/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/:vendor_slug/:package_slug/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/:vendor_slug/:package_slug/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/vladislavs-poznaks/spatie-laravel-package-training.svg?style=flat-square)](https://packagist.org/packages/vladislavs-poznaks/spatie-laravel-package-training)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/vladislavs-poznaks/spatie-laravel-package-training/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/vladislavs-poznaks/spatie-laravel-package-training/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/vladislavs-poznaks/spatie-laravel-package-training/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/vladislavs-poznaks/spatie-laravel-package-training/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/vladislavs-poznaks/spatie-laravel-package-training.svg?style=flat-square)](https://packagist.org/packages/vladislavs-poznaks/spatie-laravel-package-training)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require vladislavs-poznaks/spatie-laravel-package-training
 ```
 
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-migrations"
+php artisan vendor:publish --tag="spatie-laravel-package-training-migrations"
 php artisan migrate
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-config"
+php artisan vendor:publish --tag="spatie-laravel-package-training-config"
 ```
 
 This is the contents of the published config file:
@@ -36,14 +36,14 @@ return [
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag=":package_slug-views"
+php artisan vendor:publish --tag="spatie-laravel-package-training-views"
 ```
 
 ## Usage
 
 ```php
-$variable = new VendorName\Skeleton();
-echo $variable->echoPhrase('Hello, VendorName!');
+$example = new VladislavsPoznaks\Example();
+echo $example->echoPhrase('Hello, VladislavsPoznaks!');
 ```
 
 ## Testing
@@ -66,7 +66,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Vladislavs Poznaks](https://github.com/vladislavs-poznaks)
 - [All Contributors](../../contributors)
 
 ## License
